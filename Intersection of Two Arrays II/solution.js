@@ -8,7 +8,7 @@ let intersect = function(nums1, nums2) {
     let h2 = {};
     let result = [];
     
-    fillHash(nums1, h1);I
+    fillHash(nums1, h1);
     fillHash(nums2, h2);
     
     Object.keys(h1).forEach(function(k){
